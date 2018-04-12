@@ -1,0 +1,162 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Apache.Ignite/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Apache.Ignite.Core.dll": {},
+          "lib/net40/Apache.Ignite.exe": {}
+        },
+        "runtime": {
+          "lib/net40/Apache.Ignite.Core.dll": {},
+          "lib/net40/Apache.Ignite.exe": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "Apache.Ignite/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Apache.Ignite.Core.dll": {},
+          "lib/net40/Apache.Ignite.exe": {}
+        },
+        "runtime": {
+          "lib/net40/Apache.Ignite.Core.dll": {},
+          "lib/net40/Apache.Ignite.exe": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "Apache.Ignite/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Apache.Ignite.Core.dll": {},
+          "lib/net40/Apache.Ignite.exe": {}
+        },
+        "runtime": {
+          "lib/net40/Apache.Ignite.Core.dll": {},
+          "lib/net40/Apache.Ignite.exe": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "Apache.Ignite/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Apache.Ignite.Core.dll": {},
+          "lib/net40/Apache.Ignite.exe": {}
+        },
+        "runtime": {
+          "lib/net40/Apache.Ignite.Core.dll": {},
+          "lib/net40/Apache.Ignite.exe": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Apache.Ignite/2.3.0": {
+      "sha512": "UTMDXBmGKruFDIG5RTqNRW5L4Zz+x5FjeGu55PCDbQGvIszyMqmDtFwc++tE9m+tG0gFoxUtbW53pgRZbRhAMw==",
+      "type": "package",
+      "path": "apache.ignite/2.3.0",
+      "files": [
+        "Libs/cache-api-1.0.0.jar",
+        "Libs/commons-beanutils-1.8.3.jar",
+        "Libs/commons-codec-1.6.jar",
+        "Libs/commons-lang-2.6.jar",
+        "Libs/commons-logging-1.1.1.jar",
+        "Libs/commons-rng-core-1.0.jar",
+        "Libs/commons-rng-simple-1.0.jar",
+        "Libs/h2-1.4.195.jar",
+        "Libs/ignite-core-2.3.0.jar",
+        "Libs/ignite-indexing-2.3.0.jar",
+        "Libs/ignite-shmem-1.0.0.jar",
+        "Libs/ignite-spring-2.3.0.jar",
+        "Libs/ignite-spring-data-2.3.0.jar",
+        "Libs/lucene-analyzers-common-5.5.2.jar",
+        "Libs/lucene-core-5.5.2.jar",
+        "Libs/lucene-queryparser-5.5.2.jar",
+        "Libs/spring-aop-4.3.7.RELEASE.jar",
+        "Libs/spring-beans-4.3.7.RELEASE.jar",
+        "Libs/spring-context-4.3.7.RELEASE.jar",
+        "Libs/spring-core-4.3.7.RELEASE.jar",
+        "Libs/spring-data-commons-1.13.1.RELEASE.jar",
+        "Libs/spring-expression-4.3.7.RELEASE.jar",
+        "Libs/spring-jdbc-4.3.7.RELEASE.jar",
+        "Libs/spring-tx-4.3.7.RELEASE.jar",
+        "apache.ignite.2.3.0.nupkg.sha512",
+        "apache.ignite.nuspec",
+        "lib/net40/Apache.Ignite.Core.dll",
+        "lib/net40/Apache.Ignite.Core.xml",
+        "lib/net40/Apache.Ignite.exe",
+        "lib/net40/Apache.Ignite.exe.config",
+        "linqpad-samples/BinaryModeExample.linq",
+        "linqpad-samples/ComputeExample.linq",
+        "linqpad-samples/PutGetExample.linq",
+        "linqpad-samples/QueryExample.linq",
+        "tools/Install.ps1",
+        "tools/PostBuild.ps1",
+        "tools/Uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Apache.Ignite >= 2.3.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\HarshIT\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\HarshIT\\source\\repos\\IgniteDotnetFirstAppDemo\\IgniteDotnetFirstAppDemo\\IgniteDotnetFirstAppDemo.csproj",
+      "projectName": "IgniteDotnetFirstAppDemo",
+      "projectPath": "C:\\Users\\HarshIT\\source\\repos\\IgniteDotnetFirstAppDemo\\IgniteDotnetFirstAppDemo\\IgniteDotnetFirstAppDemo.csproj",
+      "packagesPath": "C:\\Users\\HarshIT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HarshIT\\source\\repos\\IgniteDotnetFirstAppDemo\\IgniteDotnetFirstAppDemo\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\HarshIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "Apache.Ignite": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
