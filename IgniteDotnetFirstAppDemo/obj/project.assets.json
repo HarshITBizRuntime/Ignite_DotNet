@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.6.1": {
-      "Apache.Ignite/2.3.0": {
+      "Apache.Ignite/2.4.0": {
         "type": "package",
         "compile": {
           "lib/net40/Apache.Ignite.Core.dll": {},
@@ -15,7 +15,7 @@
       }
     },
     ".NETFramework,Version=v4.6.1/win": {
-      "Apache.Ignite/2.3.0": {
+      "Apache.Ignite/2.4.0": {
         "type": "package",
         "compile": {
           "lib/net40/Apache.Ignite.Core.dll": {},
@@ -28,7 +28,7 @@
       }
     },
     ".NETFramework,Version=v4.6.1/win-x64": {
-      "Apache.Ignite/2.3.0": {
+      "Apache.Ignite/2.4.0": {
         "type": "package",
         "compile": {
           "lib/net40/Apache.Ignite.Core.dll": {},
@@ -41,7 +41,7 @@
       }
     },
     ".NETFramework,Version=v4.6.1/win-x86": {
-      "Apache.Ignite/2.3.0": {
+      "Apache.Ignite/2.4.0": {
         "type": "package",
         "compile": {
           "lib/net40/Apache.Ignite.Core.dll": {},
@@ -55,45 +55,46 @@
     }
   },
   "libraries": {
-    "Apache.Ignite/2.3.0": {
-      "sha512": "UTMDXBmGKruFDIG5RTqNRW5L4Zz+x5FjeGu55PCDbQGvIszyMqmDtFwc++tE9m+tG0gFoxUtbW53pgRZbRhAMw==",
+    "Apache.Ignite/2.4.0": {
+      "sha512": "OYYPH7CVCAQ9axxaF7AIODsxJ78WSZWty3PXhBiI61yrKx38vhcL4rD66AM/3KJjJOnWMwm2nmRh/VC1SqBodw==",
       "type": "package",
-      "path": "apache.ignite/2.3.0",
+      "path": "apache.ignite/2.4.0",
       "files": [
-        "Libs/cache-api-1.0.0.jar",
-        "Libs/commons-beanutils-1.8.3.jar",
-        "Libs/commons-codec-1.6.jar",
-        "Libs/commons-lang-2.6.jar",
-        "Libs/commons-logging-1.1.1.jar",
-        "Libs/commons-rng-core-1.0.jar",
-        "Libs/commons-rng-simple-1.0.jar",
-        "Libs/h2-1.4.195.jar",
-        "Libs/ignite-core-2.3.0.jar",
-        "Libs/ignite-indexing-2.3.0.jar",
-        "Libs/ignite-shmem-1.0.0.jar",
-        "Libs/ignite-spring-2.3.0.jar",
-        "Libs/ignite-spring-data-2.3.0.jar",
-        "Libs/lucene-analyzers-common-5.5.2.jar",
-        "Libs/lucene-core-5.5.2.jar",
-        "Libs/lucene-queryparser-5.5.2.jar",
-        "Libs/spring-aop-4.3.7.RELEASE.jar",
-        "Libs/spring-beans-4.3.7.RELEASE.jar",
-        "Libs/spring-context-4.3.7.RELEASE.jar",
-        "Libs/spring-core-4.3.7.RELEASE.jar",
-        "Libs/spring-data-commons-1.13.1.RELEASE.jar",
-        "Libs/spring-expression-4.3.7.RELEASE.jar",
-        "Libs/spring-jdbc-4.3.7.RELEASE.jar",
-        "Libs/spring-tx-4.3.7.RELEASE.jar",
-        "apache.ignite.2.3.0.nupkg.sha512",
+        "apache.ignite.2.4.0.nupkg.sha512",
         "apache.ignite.nuspec",
         "lib/net40/Apache.Ignite.Core.dll",
         "lib/net40/Apache.Ignite.Core.xml",
         "lib/net40/Apache.Ignite.exe",
         "lib/net40/Apache.Ignite.exe.config",
+        "libs/cache-api-1.0.0.jar",
+        "libs/commons-beanutils-1.8.3.jar",
+        "libs/commons-codec-1.6.jar",
+        "libs/commons-lang-2.6.jar",
+        "libs/commons-logging-1.1.1.jar",
+        "libs/commons-rng-core-1.0.jar",
+        "libs/commons-rng-simple-1.0.jar",
+        "libs/h2-1.4.195.jar",
+        "libs/ignite-core-2.4.0.jar",
+        "libs/ignite-indexing-2.4.0.jar",
+        "libs/ignite-shmem-1.0.0.jar",
+        "libs/ignite-spring-2.4.0.jar",
+        "libs/ignite-spring-data-2.4.0.jar",
+        "libs/lucene-analyzers-common-5.5.2.jar",
+        "libs/lucene-core-5.5.2.jar",
+        "libs/lucene-queryparser-5.5.2.jar",
+        "libs/spring-aop-4.3.7.RELEASE.jar",
+        "libs/spring-beans-4.3.7.RELEASE.jar",
+        "libs/spring-context-4.3.7.RELEASE.jar",
+        "libs/spring-core-4.3.7.RELEASE.jar",
+        "libs/spring-data-commons-1.13.1.RELEASE.jar",
+        "libs/spring-expression-4.3.7.RELEASE.jar",
+        "libs/spring-jdbc-4.3.7.RELEASE.jar",
+        "libs/spring-tx-4.3.7.RELEASE.jar",
         "linqpad-samples/BinaryModeExample.linq",
         "linqpad-samples/ComputeExample.linq",
         "linqpad-samples/PutGetExample.linq",
         "linqpad-samples/QueryExample.linq",
+        "linqpad-samples/ThinClient.linq",
         "tools/Install.ps1",
         "tools/PostBuild.ps1",
         "tools/Uninstall.ps1"
@@ -102,7 +103,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.6.1": [
-      "Apache.Ignite >= 2.3.0"
+      "Apache.Ignite >= 2.4.0"
     ]
   },
   "packageFolders": {
@@ -111,11 +112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HarshIT\\source\\repos\\IgniteDotnetFirstAppDemo\\IgniteDotnetFirstAppDemo\\IgniteDotnetFirstAppDemo.csproj",
+      "projectUniqueName": "C:\\Users\\HarshIT\\source\\repos\\IgniteDotNetFirstAppDemo\\IgniteDotnetFirstAppDemo\\IgniteDotnetFirstAppDemo.csproj",
       "projectName": "IgniteDotnetFirstAppDemo",
-      "projectPath": "C:\\Users\\HarshIT\\source\\repos\\IgniteDotnetFirstAppDemo\\IgniteDotnetFirstAppDemo\\IgniteDotnetFirstAppDemo.csproj",
+      "projectPath": "C:\\Users\\HarshIT\\source\\repos\\IgniteDotNetFirstAppDemo\\IgniteDotnetFirstAppDemo\\IgniteDotnetFirstAppDemo.csproj",
       "packagesPath": "C:\\Users\\HarshIT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HarshIT\\source\\repos\\IgniteDotnetFirstAppDemo\\IgniteDotnetFirstAppDemo\\obj\\",
+      "outputPath": "C:\\Users\\HarshIT\\source\\repos\\IgniteDotNetFirstAppDemo\\IgniteDotnetFirstAppDemo\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -142,7 +143,7 @@
         "dependencies": {
           "Apache.Ignite": {
             "target": "Package",
-            "version": "[2.3.0, )"
+            "version": "[2.4.0, )"
           }
         }
       }

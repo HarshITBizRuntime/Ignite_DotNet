@@ -1,0 +1,10 @@
+C:\Users\HarshIT\source\repos\IgniteDotnetFirstAppDemo\IgniteDotnetFirstAppDemo\bin\x64\Debug\IgniteDotnetFirstAppDemo.exe.config
+C:\Users\HarshIT\source\repos\IgniteDotnetFirstAppDemo\IgniteDotnetFirstAppDemo\bin\x64\Debug\IgniteDotnetFirstAppDemo.exe
+C:\Users\HarshIT\source\repos\IgniteDotnetFirstAppDemo\IgniteDotnetFirstAppDemo\bin\x64\Debug\IgniteDotnetFirstAppDemo.pdb
+C:\Users\HarshIT\source\repos\IgniteDotnetFirstAppDemo\IgniteDotnetFirstAppDemo\bin\x64\Debug\Apache.Ignite.Core.dll
+C:\Users\HarshIT\source\repos\IgniteDotnetFirstAppDemo\IgniteDotnetFirstAppDemo\bin\x64\Debug\Apache.Ignite.exe
+C:\Users\HarshIT\source\repos\IgniteDotnetFirstAppDemo\IgniteDotnetFirstAppDemo\obj\x64\Debug\IgniteDotnetFirstAppDemo.csprojResolveAssemblyReference.cache
+C:\Users\HarshIT\source\repos\IgniteDotnetFirstAppDemo\IgniteDotnetFirstAppDemo\obj\x64\Debug\IgniteDotnetFirstAppDemo.csproj.CoreCompileInputs.cache
+C:\Users\HarshIT\source\repos\IgniteDotnetFirstAppDemo\IgniteDotnetFirstAppDemo\obj\x64\Debug\IgniteDotnetFirstAppDemo.csproj.CopyComplete
+C:\Users\HarshIT\source\repos\IgniteDotnetFirstAppDemo\IgniteDotnetFirstAppDemo\obj\x64\Debug\IgniteDotnetFirstAppDemo.exe
+C:\Users\HarshIT\source\repos\IgniteDotnetFirstAppDemo\IgniteDotnetFirstAppDemo\obj\x64\Debug\IgniteDotnetFirstAppDemo.pdb
